@@ -49,7 +49,11 @@ public class AmazonTests {
         }
 
         Collections.sort(intArr, Collections.reverseOrder());
-        intArr.stream().forEach(val -> System.out.println(" LG WAshing Machine Price In Descending Order :- " +val));
+
+        for (Integer val : intArr) {
+            System.out.println("LG Washing Machine Price In Descending Order :- " +val);
+
+        }
     }
 
     @Test
@@ -74,7 +78,10 @@ public class AmazonTests {
         }
 
         Collections.sort(intArr, Collections.reverseOrder());
-        intArr.stream().forEach(val -> System.out.println("Samsung Washing Machine Price In Descending Order :- " +val));
+        for (Integer val : intArr) {
+            System.out.println("Samsung Washing Machine Price In Descending Order :- " +val);
+
+        }
 
     }
 
